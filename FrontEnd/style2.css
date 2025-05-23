@@ -1,0 +1,144 @@
+.product-item{
+    width: 300px;
+    border-bottom: 2px solid #F5F5F5;
+    background: rgb(244, 244, 244);
+    border: 2px solid #dab1fa;
+    border-radius: 5px;
+}
+.product-img1{
+    display: block;
+    width: 70%;
+   position: relative;
+   left: 40px;
+   right: 40px;
+   padding-top: 35px;
+}
+.product-title1{
+    font-size: 18px;
+   font-weight: 600;
+   color: #444444;
+   margin-bottom:10px;
+   width:230px;
+   position: relative;
+   left: 35px;
+   right: 35px;
+}
+.product-list1{
+    width: 230px;
+     padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+    text-align: center;
+}
+.price1{
+    display: inline;
+    font-size: 22px;
+    color: #9926f1;
+    margin-right: 40px;
+}
+.button1{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 12px;
+    background: #a173c5;
+    color: whie;
+    font-size: 16px;
+    line-height: 28px;
+}
+.product-item: hover{
+    border-bottom: 2px solid #9926f1;
+ }
+ .button1: hover{
+  background: #9926f1; 
+ }
+ .button1: active{
+ box-shadow: 5px 5px 5px rgb(30, 1, 39);
+ }
+.product-img2{
+    display: block;
+    width: 70%;
+   position: relative;
+   left: 40px;
+   right: 40px;
+   padding-top: 35px;
+}
+.product-title2{
+    font-size: 18px;
+   font-weight: 600;
+   color: #444444;
+   margin-bottom:10px;
+   width:230px;
+   position: relative;
+   left: 35px;
+   right: 35px;
+}
+.product-list2{
+    width: 230px;
+    padding-top: 15px;
+   padding-bottom: 15px;
+   margin: auto;
+   text-align: center;
+}
+.price2{
+    display: inline;
+    font-size: 22px;
+    color: #9926f1;
+    margin-right: 40px;
+}
+.button2{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 12px;
+    background: #a173c5;
+    color: whie;
+    font-size: 16px;
+    line-height: 28px;
+}
+.button1: hover{
+    background: #9926f1; 
+   }
+   .button1: active{
+   box-shadow: 5px 5px 5px rgb(30, 1, 39);
+   }
+.de_inchiriat{
+    display: flex;
+    justify-content: space-between;
+
+}
+.main-text{
+    font-size: 25px;
+    display: flex;
+    justify-content: last baseline;
+}
+.de_vanzare{
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    display: flexbox;
+    width: 350px;
+    left: 600px;
+    position: relative;
+}
+.block{
+    justify-content: center;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
